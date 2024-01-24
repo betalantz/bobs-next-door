@@ -15,6 +15,9 @@ function Store({store}) {
         <td>
             <span>EPISODE</span>
         </td>
+        <td>
+            <button>{false ? "Watched" : "Not Watched" }</button>
+        </td>
     </tr>
     );
 }

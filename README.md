@@ -41,4 +41,8 @@ As a user, I should be able to:
 
 - See a table of the next door store names from Bob's Burgers.
 - Fill out and submit the form to add a new store. This should add the new store to the table **as well as post the new store to the backend API for persistence**.
+- Click the 'Show Form' button to show or hide the new store form.
+- Click the 'watched' button on each store to toggle its watched status.
+
+## Advanced Deliverable
 - Filter stores by typing into the search bar. Only stores with a name matching the search term should be store in the table.

@@ -20,6 +20,9 @@ function StoreList() {
                     <th>
                         Episode
                     </th>
+                    <th>
+                        Watched
+                    </th>
                 </tr>
                 {/** Render a list of <Store> components here. */}
             </tbody>

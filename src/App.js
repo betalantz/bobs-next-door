@@ -9,6 +9,7 @@ function App() {
       <img src="/images/bobsburgers.png" />
       <h1>Neighbor Stores</h1>
       <Search />
+      <button>{true ? "Show Form" : "Hide Form"}</button>
       <NewStoreForm />
       <StoreList />
     </div>
