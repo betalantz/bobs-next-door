@@ -1,9 +1,13 @@
 import React from "react"
 import Store from "./Store"
 
-function StoreList() {
+function StoreList({ stores }) {
 
+    const mappedStores = stores.map((store) => {
+        return <Store key={store.id} {...store} />
+    })
 
+    console.log("🚀 ~ mappedStores ~ mappedStores:", mappedStores)
     return(
         <table>
             <tbody>
@@ -24,7 +28,7 @@ function StoreList() {
                         Watched
                     </th>
                 </tr>
-                {/** Render a list of <Store> components here. */}
+                {mappedStores}
             </tbody>
         
         </table>
